@@ -1,0 +1,74 @@
+/* #################################### */
+
+/* ALL PARALLAX DEFINITIONS HERE! */
+
+/* #################################### */
+
+
+body {
+  background-color: #242901;
+  background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+  background-attachment: absolute;/* PARALLAX requires backgound absolute */
+}
+
+
+/* #################################### */
+
+
+h2, h3, h4 {
+  font-family: Copperplate;
+  text-shadow: 0px 0px 5px black;
+  color: rgba(250, 250, 250, 0.725);
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5{
+  font-family: Copperplate;
+  font-size: 25px;
+  font-style: oblique;
+}
+ul {
+  list-style-type: none;
+}
+a, p {
+  color: black;
+}
+
+.content {
+  color: black;
+  text-shadow: 0px 0px 5px white;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0,0,0,0.7);
+  padding: 10px;
+}
+.imageBox {
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: flex-row;
+  align: center;
+}
+.navbar {
+  box-shadow: 0px 0px 50px 10px black;
+}
+.thumbnail {
+  box-shadow: 0px 0px 50px 1px black;
+  margin-top: 30px;
+  margin-bottom: 60PX;
+}
+#intro {
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 80px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 50px 10px black;
+}
